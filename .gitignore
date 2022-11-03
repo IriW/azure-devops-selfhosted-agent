@@ -1,0 +1,4 @@
+install_agent
+bundler/
+machines/
+.vagrant/

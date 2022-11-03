@@ -78,7 +78,6 @@ $script = <<ENDSCRIPT
     sudo yum install -y maven
     sudo yum install -y yum -y install https://packages.endpointdev.com/rhel/7/os/x86_64/endpoint-repo.x86_64.rpm
     sudo yum install git
-
 ENDSCRIPT
     
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
