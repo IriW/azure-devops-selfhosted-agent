@@ -7,8 +7,8 @@ $script = <<ENDSCRIPT
     sudo yum install -y wget
     sudo yum install -y fontconfig java-11-openjdk
     sudo yum install -y maven
-    sudo yum install -y yum -y install https://packages.endpointdev.com/rhel/7/os/x86_64/endpoint-repo.x86_64.rpm
-    sudo yum install git
+    sudo yum install -y https://packages.endpointdev.com/rhel/7/os/x86_64/endpoint-repo.x86_64.rpm
+    sudo yum install -y git
 ENDSCRIPT
     
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
